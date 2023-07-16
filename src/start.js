@@ -3,7 +3,6 @@ import routes from './routes/index.js';
 import bodyParser from 'body-parser';
 const app = express();
 
-
 app.use(bodyParser.json({ limit: '20mb' }));
 app.use(bodyParser.urlencoded({ limit: '20mb', extended: false, parameterLimit: 20000 }));
 
