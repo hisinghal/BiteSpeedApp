@@ -4,6 +4,9 @@
 API contains solution to problem statement where contact datails of user are supposed to be link with each other. 
 
 Deployement :- deployed at render.com
+
+
+This will cause a delay in the response of the first request after a period of inactivity while the instance spins up
 URL :- himanshu-biteapi.onrender.com
 postman schema :- 
 POST /identify HTTP/1.1
@@ -28,6 +31,11 @@ Curl :- curl -X POST \
 }'
 
 Run the above curl command to check the api. one can use https://reqbin.com/curl to run curl as well.
+
+NOTE :- Web Services on the free instance type are automatically spun down after 15 minutes of inactivity. When a new request for a free service comes in, Render spins it up again so it can process the request.
+
+
+
 
 
 Code desctripition :- 
