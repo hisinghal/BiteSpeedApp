@@ -11,6 +11,9 @@
     "clean": "rimraf dist",
     "build": " babel src -s -D -d dist"
   },
+  "engines": {
+    "node": ">=16.9"
+  },
   "author": "himanshu",
   "license": "ISC",
   "dependencies": {
