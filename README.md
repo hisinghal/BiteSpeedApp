@@ -6,7 +6,6 @@ API contains solution to problem statement where contact datails of user are sup
 Deployement :- deployed at render.com
 
 
-This will cause a delay in the response of the first request after a period of inactivity while the instance spins up
 URL :- himanshu-biteapi.onrender.com
 postman schema :- 
 POST /identify HTTP/1.1
