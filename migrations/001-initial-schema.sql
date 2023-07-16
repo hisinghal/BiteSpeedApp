@@ -1,0 +1,16 @@
+-- Up
+
+CREATE TABLE `contact` (
+	`id` INTEGER PRIMARY KEY AUTOINCREMENT,
+	`phoneNumber` VARCHAR(50),
+	`email` VARCHAR(50),
+	`linkedid` INTEGER,
+	`linkPrecedence` VARCHAR(50),
+	`createdAt` DATETIME DEFAULT CURRENT_TIMESTAMP,
+	`updatedAt` DATETIME DEFAULT CURRENT_TIMESTAMP,
+	`deletedAt` DATETIME DEFAULT NULL
+);
+
+-- Down
+
+DROP TABLE Contact;

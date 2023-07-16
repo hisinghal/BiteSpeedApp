@@ -2,4 +2,3 @@ node_modules
 bitespeed.db
 dist
 package-lock.json
-migrations
